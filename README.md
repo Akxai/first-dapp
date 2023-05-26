@@ -2,6 +2,15 @@
 
 This smart contract, implemented in Solidity, enables the creation and management of quests and campaigns within the StackUp platform. It allows users to join quests, submit quest completion, and receive rewards. Additionally, administrators can review submissions, edit quests, delete quests, create campaigns, and manage campaign details.
 
+By adding the functionalities of editQuest, deleteQuest, reviewSubmission, createCampaign, and editCampaign, the smart contract gains flexibility and interactivity. These features enhance user experience, providing control over quests and campaigns.
+
+- `editQuest`: Modify quest details like title, reward, and timings.
+- `deleteQuest`: Remove irrelevant quests, keeping the system up-to-date.
+- `reviewSubmission`: Admin reviews and approves/rejects player submissions.
+- `createCampaign`: Admin creates themed campaigns, engaging users with interconnected quests.
+- `editCampaign`: Modify campaign details like title and associated quests.
+These functionalities make the contract dynamic and user-friendly, resulting in an immersive and enjoyable experience.
+
 ## Functionalities
 
 ### Create Quest
